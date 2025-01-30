@@ -12,5 +12,8 @@ Finding out insight of data set and give answers for 3 questions:
 2. Where are the potential markets?
 3. Which products can be strategic?
 ### **III. Data Modeling and Visualization**
-To standardize data, I created a table called "Dim_date" and based on data of each table, I used Star Schema to execute data modeling
+To standardize data, I create an additional table called "Dim_date" and based on data of each table, I used Star Schema to execute data modeling
 ![image](https://github.com/user-attachments/assets/df20de9b-1c24-4b09-9d34-dae0fd9a40f0)
+Then, I visualize data via 3 reports which will solve 3 question as mentioned above respectively:
+Report 01: Business Performance Overview
+![image](https://github.com/user-attachments/assets/9591f988-0237-4e77-8349-44f3ac4599ee)
