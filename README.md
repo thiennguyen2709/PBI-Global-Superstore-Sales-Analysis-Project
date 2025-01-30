@@ -19,16 +19,19 @@ To standardize data, I create an additional table called "Dim_date" and based on
 Then, I visualize data via 3 dashboards which will solve 3 question as mentioned above respectively:
 
 _**Dashhboard 01: Business Performance Overview**_
+
 This dashboard provides detailed and visual insights related to business performance of company
 
 ![image](https://github.com/user-attachments/assets/9591f988-0237-4e77-8349-44f3ac4599ee)
 
 _**Dashhboard 02: Market Analyst**_
+
 This dashboard provides business information of company in each market or country
 
 ![image](https://github.com/user-attachments/assets/26d8a868-1547-44ea-8ebd-3eb5219f2b58)
 
 _**Dashhboard 03: Product Analyst**_
+
 This dashboard provides detailed business statistics of products such as profit margin, average ordered quantity growth rate year over year,...
 
 ![image](https://github.com/user-attachments/assets/07b8fef8-9b71-4e8e-8b04-c7d74a119ceb)
