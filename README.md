@@ -1,54 +1,119 @@
-# Power BI - Global Superstore Sales Project
-### **I. Project Assumption**
-Global Superstore is a retail company in diverse fields such as Technology, Furniture, Office Supplies,... . Senior Manager needs more information of business performance to build and develop market expanding strategy and strategic products. As a data analyst, I need to explore, visualize data and based on it to find out insight and give recommendation for my Senior Manager by using:
-- Data set: The dataset used in this project is the Global Superstore dataset, containing sales data from a fictional retail store
-- Data table: Including 3 data tables:
-  + Orders (Fact table): Recording information related to Sales order
-  + People (Dim table): Saving Salesperson and region information respectively
-  + Returns (Dim table): Recording information related to Return sales order
-- Tool: Power BI
-### **II. Project Objectives**
-Finding out insight of data set and give answers for 3 key questions:
+# 📊 Power BI - Global Superstore Sales Project  
+Author: Nguyen Duc Thien  
+Date: 2024-10-31  
+Tools Used: Power BI 
+
+---
+
+## 📑 Table of Contents  
+1. [📌 Background & Overview](#-background--overview)  
+2. [📂 Dataset Description & Data Structure](#-dataset-description--data-structure)   
+3. [📊 Key Insights & Visualizations](#-key-insights--visualizations)
+
+---
+
+## 📌 Background & Overview  
+
+### Objective:
+### 📖 What is this project about? 
+ 
+Global Superstore is a retail company in diverse fields such as Technology, Furniture, Office Supplies,... . Senior Manager needs more information of business performance to build and develop market expanding strategy and strategic products. 
+
+###  ❓Business Questions:  
 1. How is the business performance of company?
 2. Where are the potential markets?
 3. Which products can be strategic?
-### **III. Data Modeling and Visualization**
+
+### 🎯Project Outcome:  
+✅ Sales performance and trends: The business performance is stable, with revenue growth trends aligning with profit growth trends
+✅ Market research: Keeping business in profitable Mexican market, expanding business in El Salvador where customers willing to pay for company products
+✅ Strategic product: The Blinders and Paper products
+
+---
+
+## 📂 Dataset Description & Data Structure  
+
+### 📊 Data Source, Data Structure & Relationships  
+
+#### 1️⃣ Tables Used:
+The dataset used in this project is the Global Superstore dataset, containing sales data from a fictional retail store with .csv format, includes 3 data tables
+
+#### 2️⃣ Table Schema & Data Snapshot  
+
+Table 1: Orders
+- Size: 20 columns and 51291 rows
+- Description: Recording information related to Sales order  
+
+👉🏻 Insert a screenshot of table schema 
+
+Table 2: People
+- Size: 2 columns and 13 rows
+- Description: Saving Salesperson and region information respectively   
+
+👉🏻 Insert a screenshot of table schema 
+
+Table 3: Returns
+- Size: 2 columns and 1172 rows
+- Description: Recording information related to Return sales order
+
+👉🏻 Insert a screenshot of table schema 
+
+
+#### 3️⃣ Data Relationships:  
 To standardize data, I create an additional table called "Dim_date" and based on data of each table, I used Star Schema to execute data modeling
 
-![image](https://github.com/user-attachments/assets/df20de9b-1c24-4b09-9d34-dae0fd9a40f0)
+👉🏻 Include a screenshot of Data Modeling to visualize relationships.  
 
-Then, I visualize data via 3 dashboards which will solve 3 question as mentioned above respectively:
+---
 
-_**Dashhboard 01: Business Performance Overview**_
+## 📊 Key Insights & Visualizations  
 
-This dashboard provides detailed and visual insights related to business performance of company
+### 🔍 Dashboard Preview  
 
-![image](https://github.com/user-attachments/assets/9591f988-0237-4e77-8349-44f3ac4599ee)
+#### 1️⃣ Dashhboard 01: Business Performance Overview
 
-_**Dashhboard 02: Market Analyst**_
+👉🏻 Insert Power BI dashboard screenshots here  
 
-This dashboard provides business information of company in each market or country
+📌 Insight:
+1. Business Performance:
+- The business performance is stable, with revenue growth trends aligning with profit growth trends.
+- The company also manages cost relatively well.
+- The sub-category with the highest revenue is Chairs.
+- The sub-category with the highest profit is Copiers.
+- Blinders, Storage, and Paper are sub-categories with both high revenue and high profit.
+- The most profitable market is LATAM.
+- Revenue primarily comes from the customer segment.
 
-![image](https://github.com/user-attachments/assets/26d8a868-1547-44ea-8ebd-3eb5219f2b58)
+2. Returning goods sold:
+- The value of returned goods has remained almost unchanged in recent years, despite an increase in the number of returned products.
+- The product causing the highest revenue loss is Canon Fax Machine Digital.
 
-_**Dashhboard 03: Product Analyst**_
+✅ Recommendation:
+- Optimize costs to achieve higher profit margins, focusing more on the consumer segment.
+- Continue investigating the causes of product returns and reducing return rates in the future.
 
-This dashboard provides detailed business statistics of products such as profit margin, average ordered quantity growth rate year over year,...
+#### 2️⃣ Dashhboard 02: Market Analyst
 
-![image](https://github.com/user-attachments/assets/07b8fef8-9b71-4e8e-8b04-c7d74a119ceb)
+👉🏻 Insert Power BI dashboard screenshots here
 
-### **IV. Insight and Recommendation**
-![image](https://github.com/user-attachments/assets/f693a2cc-e78f-4691-bd1e-665eb6ca1281)
+📌 Insight:
+- LATAM is the market with the highest revenue and profit, Mexico being the country that has both high revenue and high profit.
+- The United States does not have very high revenue but has the highest profit margins.
+- El Salvador has shown significant revenue growth in recent years.
 
-### **V. Used technical skills**
-_**1. Data Processing & Transformation**_
-- Power Query (ETL - Extract, Transform, Load) such as removing duplicates and errors, converting column formats, creating new calculated columns, ...
-- DAX (Data Analysis Expressions) such as creating dynamic calculations such as total sales, profit, and profit margin, building key measures, ...
+✅ Recommendation:
+- Continue business in the Mexican market as it remains a profitable and potential market, where customers are willing to pay for the company’s products (highest revenue per customer).
+- Expand business in El Salvador, as it has a high revenue growth rate, large order values, and customers willing to pay for company products (relatively high revenue per customer).
 
-_**2. Data Analysis**_
-- Key Metrics & KPIs such as Revenue, profit, and sales volume by category & country, Customer segments generating the highest revenue, ...
-- Trend Analysis such as Sales & Profit over time using time-series analysis, Year-over-Year (YoY) Growth Analysis, ...
-- Profitability Analysis such as Identifying products with the highest profit margins, Comparing profit margins across markets & product categories, ...
+#### 3️⃣ Dashhboard 03: Product Analyst
 
-_**3. Data Visualization**_
-Power BI Dashboard such as Bar & Line Charts, Matrix Table, Slicers & Filters, ...
+👉🏻 Insert Power BI dashboard screenshots here  
+
+📌 Insight:
+- Blinders is the sub-category with the highest order volume, but it also has the highest return rate.
+- Copiers is the fastest-growing sub-category in terms of order volume.
+- Paper is the sub-category with the highest profit margin.
+
+✅ Recommendation:
+- Continue selling products in the Blinders category, but further investigate the causes of product returns, as this sub-category still has high-profit margins and relatively high growth rates.
+- Expand sales of Paper products, as this product group has exceptionally high profit margins.
