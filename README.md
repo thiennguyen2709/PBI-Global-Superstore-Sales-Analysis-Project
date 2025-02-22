@@ -26,7 +26,9 @@ Global Superstore is a retail company in diverse fields such as Technology, Furn
 
 ### 🎯Project Outcome:  
 ✅ Sales performance and trends: The business performance is stable, with revenue growth trends aligning with profit growth trends
+
 ✅ Market research: Keeping business in profitable Mexican market, expanding business in El Salvador where customers willing to pay for company products
+
 ✅ Strategic product: The Blinders and Paper products
 
 ---
@@ -44,25 +46,24 @@ Table 1: Orders
 - Size: 20 columns and 51291 rows
 - Description: Recording information related to Sales order  
 
-👉🏻 Insert a screenshot of table schema 
+![image](https://github.com/user-attachments/assets/35ace842-1863-4895-b328-2fd94d44a429)
 
 Table 2: People
 - Size: 2 columns and 13 rows
 - Description: Saving Salesperson and region information respectively   
 
-👉🏻 Insert a screenshot of table schema 
-
+![image](https://github.com/user-attachments/assets/b6c8f0e6-944a-4139-b01b-303ee5d51519)
+ 
 Table 3: Returns
 - Size: 2 columns and 1172 rows
 - Description: Recording information related to Return sales order
 
-👉🏻 Insert a screenshot of table schema 
-
+![image](https://github.com/user-attachments/assets/9121ca12-a904-49ee-973e-7eb33621753a)
 
 #### 3️⃣ Data Relationships:  
 To standardize data, I create an additional table called "Dim_date" and based on data of each table, I used Star Schema to execute data modeling
 
-👉🏻 Include a screenshot of Data Modeling to visualize relationships.  
+![image](https://github.com/user-attachments/assets/d1d560d8-b5ae-4b36-8bc6-fa21b338d7a4)
 
 ---
 
@@ -72,8 +73,8 @@ To standardize data, I create an additional table called "Dim_date" and based on
 
 #### 1️⃣ Dashhboard 01: Business Performance Overview
 
-👉🏻 Insert Power BI dashboard screenshots here  
-
+![image](https://github.com/user-attachments/assets/c973b2e7-7f3f-4b91-93d4-6f786665b863)
+ 
 📌 Insight:
 1. Business Performance:
 - The business performance is stable, with revenue growth trends aligning with profit growth trends.
@@ -94,7 +95,7 @@ To standardize data, I create an additional table called "Dim_date" and based on
 
 #### 2️⃣ Dashhboard 02: Market Analyst
 
-👉🏻 Insert Power BI dashboard screenshots here
+![image](https://github.com/user-attachments/assets/bd71d022-8796-4cc7-b69b-168875c91a94)
 
 📌 Insight:
 - LATAM is the market with the highest revenue and profit, Mexico being the country that has both high revenue and high profit.
@@ -107,7 +108,7 @@ To standardize data, I create an additional table called "Dim_date" and based on
 
 #### 3️⃣ Dashhboard 03: Product Analyst
 
-👉🏻 Insert Power BI dashboard screenshots here  
+![image](https://github.com/user-attachments/assets/a04d2154-4f99-4478-b64b-299e2f31bc99)
 
 📌 Insight:
 - Blinders is the sub-category with the highest order volume, but it also has the highest return rate.
