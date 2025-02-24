@@ -7,8 +7,9 @@ Tools Used: Power BI
 
 ## 📑 Table of Contents  
 1. [📌 Background & Overview](#-background--overview)  
-2. [📂 Dataset Description & Data Structure](#-dataset-description--data-structure)   
-3. [📊 Key Insights & Visualizations](#-key-insights--visualizations)
+2. [📂 Dataset Description & Data Structure](#-dataset-description--data-structure)
+3. [🧠 Design Thinking Process](#-design-thinking-process)
+4. [📊 Key Insights & Visualizations](#-key-insights--visualizations)
 
 ---
 
@@ -67,6 +68,25 @@ To standardize data, I create an additional table called "Dim_date" and based on
 
 ---
 
+## 🧠 Design Thinking Process  
+
+1️⃣ Empathize
+
+![image](https://github.com/user-attachments/assets/2f78155d-f71a-4116-b35b-bc466f7c54d8)
+
+2️⃣ Define point of view
+
+![image](https://github.com/user-attachments/assets/a24c3f94-de4e-44d9-8186-6931cb8970e2)
+
+3️⃣ Ideate
+
+![image](https://github.com/user-attachments/assets/cb251496-68e4-479d-9138-5d1798f710d2)
+
+4️⃣ Prototype and review  
+
+![image](https://github.com/user-attachments/assets/825a6100-234f-4480-934b-c83deb4818e9)
+
+---
 ## 📊 Key Insights & Visualizations  
 
 ### 🔍 Dashboard Preview  
